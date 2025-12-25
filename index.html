@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NewsLite | Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="full-container header-flex">
+            <h1 class="logo">NEWS<span>LITE</span></h1>
+            <div class="current-date" id="top-date">Carregando data...</div>
+        </div>
+    </header>
+
+    <nav class="sub-nav">
+        <div class="full-container">
+            <div class="categories-center" id="main-menu">
+                <a href="#" class="active" data-cat="TUDO">Início</a>
+                <a href="#" data-cat="BRASIL">Brasil</a>
+                <a href="#" data-cat="MUNDO">Mundo</a>
+                <a href="#" data-cat="TECNOLOGIA">Tecnologia</a>
+                <a href="#" data-cat="NEGÓCIOS">Negócios</a>
+                <a href="#" data-cat="CIÊNCIA">Ciência</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="site-tagline">
+        <div class="full-container">
+            <p>O Resumo do que importa no Brasil e no Mundo!</p>
+        </div>
+    </section>
+
+    <main class="full-container">
+        <div class="time-divider" id="label-today">
+            <span class="badge">HOJE</span>
+            <hr>
+        </div>
+        <div class="news-grid-main" id="news-container-today">
+            </div>
+
+        <div class="time-divider" id="label-week">
+            <span class="badge secondary" id="period-text">ESTA SEMANA</span>
+            <hr>
+        </div>
+        <div class="news-grid-main" id="news-container-week">
+            </div>
+
+        <div class="load-more-area">
+            <button id="load-more-btn">CARREGAR MAIS NOTÍCIAS</button>
+        </div>
+    </main>
+
+    <footer class="slim-footer">
+        <div class="full-container footer-flex-bottom">
+            <div class="footer-info">
+                <span class="footer-brand">NEWSLITE</span>
+                <p>&copy; 2025 Todos os direitos reservados.</p>
+            </div>
+            
+            <div class="footer-contact">
+                <p><strong>Contato:</strong> contato@newslite.com.br</p>
+                <p>Av. Paulista, 1000 - São Paulo, SP</p>
+            </div>
+
+            <nav class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
